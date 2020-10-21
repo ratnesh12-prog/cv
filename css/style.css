@@ -1,0 +1,83 @@
+body{
+    /* background-image: linear-gradient( rgb(195,179,247), rgb(185, 294, 92)); */
+    background: url("/bc.png");
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+.container{
+    /* background-color:red; */
+    border: 2px solid black;
+    max-width: 60%;
+    margin: auto;
+    height: 65vh;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom:10px ;
+    border-radius: 20px;
+}
+.message{
+
+ border-radius: 10x;
+ border-radius: 15px;
+ width: 30%;
+ margin: 5px;
+ padding: 10px;
+ background-color: rgb(242, 243, 171);
+}
+.left{
+float: left;
+clear: both;
+line-height: 2;
+font-size: 1.2rem;
+}
+.right{
+    float: right;
+    font-size: 1.2rem;
+    /* font-family: 'Merriweather', serif; */
+    clear: both;
+    color: blue;
+    line-height: 2;
+    background-color: rgb(222, 236, 157);
+}
+ 
+#send-container{
+   text-align: center;
+   max-width: 50%;
+   width: 100%;
+   display: block;
+   margin: 15px auto;
+
+}
+#messageInp{
+    border-radius: 15px;
+    border: 2px solid transparent;
+    width: 80%;
+    height: 22px;
+    background-color: rgb(243, 241, 231);
+}
+ 
+.btn{
+    width: 80px;
+    height: 28px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(101, 111, 250);
+}
+nav h1{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+footer{
+  margin: auto;
+  text-align: center;  
+}
